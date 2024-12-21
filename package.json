@@ -1,25 +1,25 @@
 {
-  "name": "generate-eth-address-end-6868",
+  "name": "generate-eth-address-end-DIY",
   "version": "1.0.2",
-  "description": "generate eth address end with 6868",
+  "description": "generate eth address end with DIY",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tnm0113/generate-eth-address-end-6868"
+    "url": "https://github.com/what-cloud/generate-eth-address-end-DIY"
   },
   "keywords": [
     "eth",
     "autogen"
   ],
-  "author": "tnm0113",
+  "author": "what-cloud",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tnm0113/generate-eth-address-end-6868/issues"
+    "url": "https://github.com/what-cloud/generate-eth-address-end-DIY/issues"
   },
-  "homepage": "https://github.com/tnm0113/generate-eth-address-end-6868",
+  "homepage": "https://github.com/what-cloud/generate-eth-address-end-DIY",
   "dependencies": {
     "generate-nice-eth-address": "^1.0.0"
   }
