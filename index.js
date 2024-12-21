@@ -1,8 +1,12 @@
 import { generate } from "generate-nice-eth-address";
 
-function generateAddress6868(postfix) {
-    let result = generate("6868");
+function generateAddressDIY() {
+    const postfix = prompt("Enter the postfix to generate the Ethereum address: ");
+    if (!postfix) {
+        throw new Error("Postfix is required to generate an address.");
+    }
+    let result = generate(postfix);
     return result;
 }
 
-export { generateAddress6868 };
+export { generateAddressDIY };
